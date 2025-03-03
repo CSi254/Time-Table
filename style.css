@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: navy;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: gold;
+}
+
+/* Timetable Section Styling */
+.timetable-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.exam-timetable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.exam-timetable th,
+.exam-timetable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.exam-timetable th {
+  background-color: navy;
+  color: white;
+}
+
+.exam-timetable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.exam-timetable tr:hover {
+  background-color: #f1f1f1;
+}
+
+.highlight-red {
+  color: red;
+  font-weight: bold;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
